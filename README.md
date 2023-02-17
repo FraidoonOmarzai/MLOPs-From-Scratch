@@ -40,7 +40,4 @@ dvc add data_given/----.csv
 git add . && git commit -m ""
 ```
 
-* 
-```bash
-
-```
+* adding params => params.yaml
