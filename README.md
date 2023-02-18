@@ -51,3 +51,16 @@ touch src/get_data.py
 ```bash
 touch src/load_data.py
 ```
+
+* add stages in dvc.yaml and run the below command
+```bash
+dvc repro
+```
+
+* **pip/python: normal site-packages is not writeable**
+```bash
+python3 -m pip install [package_name]
+```
+
+* push the changes
+
