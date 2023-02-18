@@ -64,3 +64,9 @@ python3 -m pip install [package_name]
 
 * push the changes
 
+* create a split_data file, add a stage in dvc.yaml and run **dvc repro**
+```bash
+touch src/split_data.py
+```
+
+* push the creation of second stage 
