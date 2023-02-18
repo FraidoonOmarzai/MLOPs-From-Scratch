@@ -46,3 +46,8 @@ git add . && git commit -m ""
 ```bash
 touch src/get_data.py
 ```
+
+* create load_data
+```bash
+touch src/load_data.py
+```
