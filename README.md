@@ -40,4 +40,9 @@ dvc add data_given/----.csv
 git add . && git commit -m ""
 ```
 
-* adding params => params.yaml
+* adding params => params.yaml and push the changes to github 
+
+* create a file and add the required code to it, finally push it to github
+```bash
+touch src/get_data.py
+```
