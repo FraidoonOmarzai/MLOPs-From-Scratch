@@ -47,7 +47,7 @@ git add . && git commit -m ""
 touch src/get_data.py
 ```
 
-* create load_data
+* **1.** create load_data
 ```bash
 touch src/load_data.py
 ```
@@ -64,9 +64,16 @@ python3 -m pip install [package_name]
 
 * push the changes
 
-* create a split_data file, add a stage in dvc.yaml and run **dvc repro**
+* **2.** create a split_data file, add a stage in dvc.yaml and run **dvc repro**
 ```bash
 touch src/split_data.py
 ```
 
 * push the creation of second stage 
+
+* **3.** create train_and_evaluate file, add a stage in dvc.yaml and run **dvc repro**
+```bash
+touch src/train_and_evaluate.py
+```
+
+* push the creation of third stage 
