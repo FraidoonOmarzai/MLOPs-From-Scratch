@@ -1,5 +1,7 @@
 <h1 align=center> MLOps from scratch</h1>
 
+**Note:** First we work on jupyter-notebook and after knowing the alg and everything we come to these steps!
+
 ## Steps
 
 * Create an environment and acitvate it
@@ -102,3 +104,9 @@ git add . && git commit -m "tracker added"
 dvc repro
 dvc metrics diff # to track the old and new values
 ```
+
+* **Setup of testing part:**
+
+* installing:
+    * pytest
+    * tox
