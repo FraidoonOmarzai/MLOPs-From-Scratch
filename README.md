@@ -110,3 +110,31 @@ dvc metrics diff # to track the old and new values
 * installing:
     * pytest
     * tox
+
+
+* create the tox.ini file and add code to it
+```bash
+touch tox.ini
+```
+
+* run
+```bash
+pytest -v # it will display that their is no test
+tox
+```
+
+* create
+```bash
+mkdir tests
+touch tests/conftest.py
+touch tests/test_config.py
+touch tests/__init__.py
+```
+
+* add the following code to test_config.py and then run **pytest -v** for gething the concept
+```python
+def test_generic():
+    a =2
+    b = 2
+    assert a == b
+```
