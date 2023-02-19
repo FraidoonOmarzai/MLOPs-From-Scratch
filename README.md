@@ -93,5 +93,12 @@ dvc metrics diff
 ```
 
 * push the changes to github
+```bash
+git add . && git commit -m "tracker added"
+```
 
-
+* changes the values of alpha and l1_ratio in params.yaml and run the below commands
+```bash
+dvc repro
+dvc metrics diff # to track the old and new values
+```
