@@ -76,4 +76,22 @@ touch src/split_data.py
 touch src/train_and_evaluate.py
 ```
 
-* push the creation of third stage 
+* push the working process of third stage 
+
+* create, add some codes in dvc.yaml(metrices:), params.yaml and train_and_evaluate.py
+```bash
+mkdir report
+touch report/params.json
+touch report/scores.json
+```
+
+* run
+```bsah
+dvc repro
+dvc metrics show
+dvc metrics diff
+```
+
+* push the changes to github
+
+
