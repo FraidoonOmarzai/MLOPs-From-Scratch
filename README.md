@@ -119,8 +119,8 @@ touch tox.ini
 
 * run
 ```bash
-pytest -v # it will display that their is no test
-tox
+pytest -v # it will display that their is no test, its pytest command
+tox # tox command
 ```
 
 * create
@@ -142,5 +142,9 @@ def test_generic():
 * create file setup.py and add codes to it
 ```bash
 touch setup.py
-pip install -e .
+pip install -e . # setup commands
+```
+* **just for learn purpose not required in this project:** build your own package commands
+```bash
+python setup.py sdist bdist_wheel
 ```
