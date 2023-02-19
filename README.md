@@ -138,3 +138,9 @@ def test_generic():
     b = 2
     assert a == b
 ```
+
+* create file setup.py and add codes to it
+```bash
+touch setup.py
+pip install -e .
+```
