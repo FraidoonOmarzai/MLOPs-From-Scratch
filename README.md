@@ -157,3 +157,23 @@ python setup.py sdist bdist_wheel
 * open jupyter-lab and get the min and max for each features
 
 * adding flake8 code to tox.ini for formating the documents
+
+```bash
+mkdir -p prediction_service/model
+touch prediction_service/__init__.py
+touch prediction_service/prediction.py
+
+mkdir webapp
+mkdir -p webapp/static/css
+touch webapp/static/css/style.css
+
+mkdir -p webapp/static/script
+touch webapp/static/script/index.js
+
+mkdir webapp/templates
+touch webapp/templates/index.html
+touch webapp/templates/404.html
+touch webapp/templates/base.html
+
+touch app.py
+```
