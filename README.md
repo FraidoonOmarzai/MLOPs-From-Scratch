@@ -155,3 +155,5 @@ python setup.py sdist bdist_wheel
  ```
 
 * open jupyter-lab and get the min and max for each features
+
+* adding flake8 code to tox.ini for formating the documents
