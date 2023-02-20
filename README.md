@@ -148,3 +148,10 @@ pip install -e . # setup commands
 ```bash
 python setup.py sdist bdist_wheel
 ```
+
+* install jupyterlab 
+```bash
+ pip install jupyterlab
+ ```
+
+* open jupyter-lab and get the min and max for each features
