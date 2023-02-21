@@ -105,6 +105,9 @@ dvc repro
 dvc metrics diff # to track the old and new values
 ```
 
+
+*************************************************************************** 
+
 * **Setup of testing part:**
 
 * installing:
@@ -159,6 +162,8 @@ python setup.py sdist bdist_wheel
 * adding flake8 code to tox.ini for formating the documents
 
 
+******************************************************************************************
+
 * **flask app** create dir and files and add code to it for test purpose
 ```bash
 mkdir -p prediction_service/model
@@ -185,3 +190,11 @@ touch app.py
 mkdir -p .github/workflows/
 touch .github/workflows/ci-cd.yaml
 ```
+
+**Note:** We are not working on deploying to heroku so we just create procfile for extra informatin
+```bash
+touch Procfile
+```
+ 
+ *************************************************************************************
+
