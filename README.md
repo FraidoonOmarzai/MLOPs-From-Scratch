@@ -158,6 +158,8 @@ python setup.py sdist bdist_wheel
 
 * adding flake8 code to tox.ini for formating the documents
 
+
+* **flask app** create dir and files and add code to it
 ```bash
 mkdir -p prediction_service/model
 touch prediction_service/__init__.py
@@ -177,3 +179,4 @@ touch webapp/templates/base.html
 
 touch app.py
 ```
+

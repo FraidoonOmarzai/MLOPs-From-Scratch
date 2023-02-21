@@ -9,3 +9,5 @@ pandas
 numpy
 pytest
 tox
+flask
+gunicorn
