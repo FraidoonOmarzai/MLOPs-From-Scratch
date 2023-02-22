@@ -206,3 +206,10 @@ touch Procfile
 
 *****************************************************************************************
 
+**MLFlow Section** Before we were just using DVC, and now we will use DVC+MLFlow
+
+* create a branch
+```bash
+git checkout -b main_mlflow # create main_mlflow branch and switch to it
+git branch # check the branch
+```
