@@ -210,6 +210,34 @@ touch Procfile
 
 * create a branch
 ```bash
-git checkout -b main_mlflow # create main_mlflow branch and switch to it
+git checkout -b main-mlflow # create main_mlflow branch and switch to it
 git branch # check the branch
+```
+* install mlflow
+```bash
+pip install mlflow
+```
+
+* add some changes in dvc.yaml, params.yaml and tarin_and_evaluate.py
+
+```bash
+touch src/log_production_model.py # create a file
+```
+
+```bash
+mkdir artifacts
+```
+
+* mlflow server command - (run in bash2)
+
+```bash
+mlflow server \
+    --backend-store-uri sqlite:///mlflow.db \
+    --default-artifact-root ./artifacts \
+    --host 0.0.0.0 -p 1234
+```
+
+* come back to bash 1 and run
+``` bash
+dvc repro
 ```
