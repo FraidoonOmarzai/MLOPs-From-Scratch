@@ -241,3 +241,9 @@ mlflow server \
 ``` bash
 dvc repro
 ```
+
+* add code to log_production_model.py
+
+* crete a jupyter-lab and run the codes 
+
+* we can bring changes to branch in **.github/workflows** if we want to run github action 
